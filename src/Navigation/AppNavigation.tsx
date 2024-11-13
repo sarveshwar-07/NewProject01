@@ -8,7 +8,7 @@ const AppNavigator = () => {
   const stack = createNativeStackNavigator();
   return (
     <NavigationContainer>
-      <stack.Navigator initialRouteName="UserScreen3">
+      <stack.Navigator initialRouteName="UserScreen1">
         <stack.Screen name="UserScreen1" component={UserScreen1} />
         <stack.Screen name="UserScreen2" component={UserScreen2} />
         <stack.Screen name={'UserScreen3'} component={UserScreen3} />
