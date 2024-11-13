@@ -9,9 +9,21 @@ const AppNavigator = () => {
   return (
     <NavigationContainer>
       <stack.Navigator initialRouteName="UserScreen1">
-        <stack.Screen name="UserScreen1" component={UserScreen1} />
-        <stack.Screen name="UserScreen2" component={UserScreen2} />
-        <stack.Screen name={'UserScreen3'} component={UserScreen3} />
+        <stack.Screen
+          name="UserScreen1"
+          component={UserScreen1}
+          options={{headerShown: false}}
+        />
+        <stack.Screen
+          name="UserScreen2"
+          component={UserScreen2}
+          options={{headerShown: false}}
+        />
+        <stack.Screen
+          name={'UserScreen3'}
+          component={UserScreen3}
+          options={{headerShown: false}}
+        />
       </stack.Navigator>
     </NavigationContainer>
   );
