@@ -21,12 +21,6 @@ const UserScreen1 = () => {
             source={require('../../Assests/flag.png')}
           />
         </TouchableOpacity>
-        <TouchableOpacity>
-          <Image
-            style={{height: 50, width: 50}}
-            source={require('../../Assests/flag.png')}
-          />
-        </TouchableOpacity>
       </View>
 
       <View
